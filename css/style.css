@@ -81,7 +81,8 @@ select {
 	margin-bottom: 1.125em;	
 }
 
-input {
+input,
+select {
 	font-size: 1em;
 	font-weight: 500;
 	padding: .8em;
@@ -101,6 +102,10 @@ input[type="radio"] {
 	display: inline-block;
 }
 
+.disabled {
+	color: #777;
+}
+
 button {
 	color: #fff;
 	padding: .55em 1.25em;
@@ -112,6 +117,17 @@ button {
 button:hover {
 	background: #184c62;
 }
+
+.invalid {
+	color: #b22303;
+	
+}
+
+.msg {
+	font-size: .8em;
+}
+
+
 
 /* ================================= 
   Page Styles
