@@ -213,7 +213,7 @@ $(document).ready(function() {
 		}
 		
 		//Check at least one activity is selected
-		if ($('.activities input[type="checkbox"]').prop('checked') === false) {
+		if ($('.activities input:checkbox:checked').length <= 0) {
 			$('.activities legend').append('<p class="error invalid msg">Please register for at least one activity</p>').addClass('invalid');
 			error = true;
 		} else {
